@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+main()
+{
+int i;
+int k;
+int s,n;
+float m=0,avg=0;
+printf("Enter How Many Elements You Want To Enter:");
+scanf("%d",&n);
+int a[100];
+printf("Enter The Elemnts:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+m+=a[i];
+}
+printf("The Sum Of Elements in given array is :%.2f\n",m);
+avg=m/n;
+printf("The average of the elements is %.2f",avg);
+}
