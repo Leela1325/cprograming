@@ -1,0 +1,14 @@
+//finding student users//
+#include<stdio.h>
+int main() {
+	int a,b,c;
+	printf("enter the total users:");
+	scanf("%d",&a);
+	printf("enter the staff users:");
+	scanf("%d",&b);
+{
+	c=a-b-( b/3 ); }
+	printf("the students is:%d",c);
+	return 0;
+	
+}
